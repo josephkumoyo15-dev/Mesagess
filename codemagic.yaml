@@ -3,7 +3,6 @@ workflows:
     name: Android Compose Build
     environment:
       java: 17
-      android: latest
 
     scripts:
       - name: Build APK
