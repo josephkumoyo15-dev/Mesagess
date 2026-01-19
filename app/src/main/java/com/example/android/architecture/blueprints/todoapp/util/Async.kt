@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.architecture.blueprints.todoapp.util
+package com.example.messages
 
 /**
  * A generic class that holds a loading signal or the result of an async operation.
