@@ -2,10 +2,8 @@ workflows:
   android-compose:
     name: Android Compose Build
     environment:
-      flutter: none
-      xcode: latest
-      cocoapods: default
       java: 17
+      android: latest
 
     scripts:
       - name: Build APK
