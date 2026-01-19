@@ -1,4 +1,4 @@
-package com.example.android.architecture.blueprints.todoapp
+package com.example.messages
 
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.lightColorScheme
