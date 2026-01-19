@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.architecture.blueprints.todoapp.util
+package com.example.messages
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
