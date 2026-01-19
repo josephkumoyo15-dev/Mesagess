@@ -1,0 +1,15 @@
+workflows:
+  android-compose:
+    name: Android Compose Build
+    environment:
+      flutter: none
+      xcode: latest
+      cocoapods: default
+      java: 17
+
+    scripts:
+      - name: Build APK
+        script: ./gradlew assembleDebug
+
+    artifacts:
+      - app/build/outputs/apk/debug/app-debug.apk
