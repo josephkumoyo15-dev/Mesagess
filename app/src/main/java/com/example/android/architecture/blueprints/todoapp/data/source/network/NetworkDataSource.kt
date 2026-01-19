@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.architecture.blueprints.todoapp.data.source.network
+package com.example.messages
 
 /**
  * Main entry point for accessing tasks data from the network.
