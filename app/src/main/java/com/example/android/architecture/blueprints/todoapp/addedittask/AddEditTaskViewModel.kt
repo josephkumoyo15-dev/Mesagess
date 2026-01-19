@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.architecture.blueprints.todoapp.addedittask
+package com.example.messages
 
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
