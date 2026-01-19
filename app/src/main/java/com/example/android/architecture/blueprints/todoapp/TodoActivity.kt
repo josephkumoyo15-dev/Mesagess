@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.architecture.blueprints.todoapp
+package com.example.messages
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
