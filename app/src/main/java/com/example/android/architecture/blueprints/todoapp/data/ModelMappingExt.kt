@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.architecture.blueprints.todoapp.data
+package com.example.messages
 
 import com.example.android.architecture.blueprints.todoapp.data.source.local.LocalTask
 import com.example.android.architecture.blueprints.todoapp.data.source.network.NetworkTask
