@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.architecture.blueprints.todoapp.statistics
+package com.example.messages
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
