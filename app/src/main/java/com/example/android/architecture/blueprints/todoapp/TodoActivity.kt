@@ -33,7 +33,7 @@ class TodoActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             TodoTheme {
-                TodoNavGraph()
+                ChatScreen()
             }
         }
     }
