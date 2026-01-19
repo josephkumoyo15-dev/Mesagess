@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.architecture.blueprints.todoapp.tasks
+package com.example.messages
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
