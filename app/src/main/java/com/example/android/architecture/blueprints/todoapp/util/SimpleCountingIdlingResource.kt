@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.architecture.blueprints.todoapp.util
+package com.example.messages
 
 import androidx.test.espresso.IdlingResource
 import java.util.concurrent.atomic.AtomicInteger
