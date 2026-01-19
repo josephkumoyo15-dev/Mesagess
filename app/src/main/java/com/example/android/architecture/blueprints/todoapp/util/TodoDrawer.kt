@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.architecture.blueprints.todoapp.util
+package com.example.messages
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
