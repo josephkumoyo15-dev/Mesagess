@@ -14,8 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.architecture.blueprints.todoapp.data.source.network
-
+package com.example.messages
 /**
  * Internal model used to represent a task obtained from the network. This is used inside the data
  * layer only.
