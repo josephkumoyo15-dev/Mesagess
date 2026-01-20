@@ -1,16 +1,19 @@
 package com.example.messages
 
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
-import androidx.navigation.compose.NavHost
-import androidx.navigation.compose.composable
-import androidx.navigation.compose.rememberNavController
+import androidx.compose.ui.graphics.Color
 
 @Composable
-fun ChatNavGraph(startDestination: String = "chat") {
-    val navController = rememberNavController()
-    NavHost(navController = navController, startDestination = startDestination) {
-        composable("chat") {
-            ChatScreen() // your main chat screen
-        }
+fun TodoTheme(content: @Composable () -> Unit) {
+    MaterialTheme(
+        colorScheme = lightColorScheme(
+            primary = Color(0xFF263238),
+            secondary = Color(0xFF2E7D32),
+            tertiary = Color(0xFFCCCCCC)
+        )
+    ) {
+        content()
     }
 }
