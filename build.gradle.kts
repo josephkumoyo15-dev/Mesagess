@@ -1,11 +1,9 @@
-buildscript {
-    dependencies {
-        classpath("com.google.dagger:hilt-android-gradle-plugin:2.51")
-    }
-}
+dependencies {
 
-plugins {
-    id("com.android.application") version "8.2.2" apply false
-    id("com.android.library") version "8.2.2" apply false
-    id("org.jetbrains.kotlin.android") version "1.9.22" apply false
+    implementation("com.google.android.material:material:1.11.0")
+
+    // Hilt
+    implementation("com.google.dagger:hilt-android:2.51.1")
+    kapt("com.google.dagger:hilt-compiler:2.51.1")
+
 }
