@@ -11,4 +11,5 @@
     <color name="colorOnBackground">#000000</color>
     <color name="colorOnSurface">#000000</color>
     <color name="colorOnError">#FFFFFF</color>
+    <color name="colorAccent">#FF4081</color> <!-- add this -->
 </resources>
