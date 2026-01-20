@@ -1,26 +1,22 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-
-    <!-- Base application theme -->
     <style name="Theme.TodoApp" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Primary brand color. -->
+        <!-- Primary brand colors -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
         <item name="colorSecondary">@color/colorSecondary</item>
         <item name="colorSecondaryVariant">@color/colorSecondaryVariant</item>
-        <item name="android:colorBackground">@color/colorBackground</item>
-        <item name="android:colorSurface">@color/colorSurface</item>
-        <item name="android:colorError">@color/colorError</item>
-        <item name="android:fontFamily">@font/opensans_regular</item>
-        <item name="textAppearanceBody1">@style/TextAppearance.TodoApp.Body1</item>
-        <item name="textAppearanceBody2">@style/TextAppearance.TodoApp.Body2</item>
-    </style>
 
-    <style name="TextAppearance.TodoApp.Body1" parent="TextAppearance.Material3.Body1">
+        <!-- Background / surface colors -->
+        <item name="android:colorBackground">@color/colorBackground</item>
+        <item name="colorSurface">@color/colorSurface</item>
+
+        <!-- On colors -->
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <item name="colorOnSecondary">@color/colorOnSecondary</item>
+        <item name="colorOnBackground">@color/colorOnBackground</item>
+        <item name="colorOnSurface">@color/colorOnSurface</item>
+
+        <!-- Font family -->
         <item name="fontFamily">@font/opensans_regular</item>
     </style>
-
-    <style name="TextAppearance.TodoApp.Body2" parent="TextAppearance.Material3.Body2">
-        <item name="fontFamily">@font/opensans_semibold</item>
-    </style>
-
 </resources>
