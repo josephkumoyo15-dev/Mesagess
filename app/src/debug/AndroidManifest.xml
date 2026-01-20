@@ -3,5 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <application
+        android:theme="@style/Theme.Todo"
         tools:replace="android:theme" />
+
 </manifest>
