@@ -1,21 +1,17 @@
 package com.example.messages
 
-import android.os.Bundle
-import androidx.activity.ComponentActivity
-import androidx.activity.compose.setContent
-import androidx.activity.enableEdgeToEdge
-import dagger.hilt.android.AndroidEntryPoint
+import android.app.Application
+import dagger.hilt.android.HiltAndroidApp
+import timber.log.Timber
+import timber.log.Timber.DebugTree
 
-@AndroidEntryPoint
-class TodoActivity : ComponentActivity() {
+@HiltAndroidApp
+class TodoApplication : Application() {
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
-        setContent {
-            TodoTheme {
-                ChatScreen() // Make sure ChatScreen exists in the same package
-            }
+    override fun onCreate() {
+        super.onCreate()
+        if (BuildConfig.DEBUG) {
+            Timber.plant(DebugTree())
         }
     }
 }
