@@ -1,22 +1,19 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <style name="Theme.TodoApp" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Primary brand colors -->
+
+    <style name="Theme.TodoApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
         <item name="colorSecondary">@color/colorSecondary</item>
         <item name="colorSecondaryVariant">@color/colorSecondaryVariant</item>
-
-        <!-- Background / surface colors -->
-        <item name="android:colorBackground">@color/colorBackground</item>
-        <item name="colorSurface">@color/colorSurface</item>
-
-        <!-- On colors -->
-        <item name="colorOnPrimary">@color/colorOnPrimary</item>
         <item name="colorOnSecondary">@color/colorOnSecondary</item>
+        <item name="colorBackground">@color/colorBackground</item>
+        <item name="colorSurface">@color/colorSurface</item>
+        <item name="colorError">@color/colorError</item>
         <item name="colorOnBackground">@color/colorOnBackground</item>
         <item name="colorOnSurface">@color/colorOnSurface</item>
-
-        <!-- Font family -->
-        <item name="fontFamily">@font/opensans_regular</item>
+        <item name="colorOnError">@color/colorOnError</item>
+        <item name="android:fontFamily">@font/opensans_regular</item>
     </style>
+
 </resources>
